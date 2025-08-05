@@ -5,7 +5,7 @@ terraform {
   backend "gcs" {
     bucket      = "southpawstate-02"
     prefix      = "terraform/state"
-    credentials = "dusty-class-6-5-carlton-quaye-02096ed33190.json"
+    credentials = "*"
   }
   required_providers {
     google ={ 
